@@ -1,0 +1,36 @@
+.clock {
+  width: 300px;
+  height: 300px;
+  border: 8px solid #333;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px auto;
+  background: white;
+}
+
+.hand {
+  width: 50%;
+  background: #333;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hour {
+  height: 6px;
+  left: 50%;
+}
+
+.minute {
+  height: 4px;
+  left: 50%;
+}
+
+.second {
+  height: 2px;
+  background: red;
+  left: 50%;
+}
