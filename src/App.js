@@ -4,7 +4,7 @@ import AnalogClock from './AnalogClock';
 function App() {
   return (
     <div className="App">
-      <h1>React Analog Clock</h1>
+      <h1>React Anal Clock</h1>
       <AnalogClock />
     </div>
   );
